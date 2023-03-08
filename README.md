@@ -23,7 +23,22 @@
 - [ ] rootViewController 알아보기
 - [ ] 
 
-## IBOutlet  
+## 2. IBOutlet 연결하기
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/70703326/223298263-d5fdc1fd-8c8e-431b-99a5-372bd2561018.png">
+<img width="300" alt="image" src="https://user-images.githubusercontent.com/70703326/223298408-44a5166a-ec5a-4650-869d-149b674aab3b.png">
+
+label의 width를 넘어 글씨를 넣다보니, "..."으로 글이 잘려 sizeToFit() 함수를 사용했다. 공식문서에 따르면 가장 적절한 공간을 사용하도록 resize한다고 한다. 또 superView가 없으면 화면의 경계까지를 크기로 설정할 수 있다고 한다.  
+https://developer.apple.com/documentation/uikit/uiview/1622630-sizetofit  
+
+highlightedTextColor, isHighlighted 프라퍼티를 "나의 첫번째 사진앱"에 해당하는 라벨에 적용했다. highlightedTextColor에서 색을 설정하고 isHighligted 값을 true로 바꾸어주면 색이 바뀐다. 버튼을 눌렀을 때와 같이 이벤트에 활용해서 쓰는 것 같다.  
+
+### 학습내용
+viewDidLoad란? : 뷰 컨트롤러가 뷰 계층 구조를 메모리에 로드한 후에 호출되는 함수라고 한다.  
+
+
+### 레퍼런스
+* UILabel 프라퍼티 정리글 : https://roeldowney.tistory.com/74   
+* 뷰컨트롤러의 생명주기 : https://fomaios.tistory.com/entry/iOS-면접질문-프로토콜과-익스텐션이란Protocol-and-Extension  
 
 # 주요 작업 내용
 Tap bar  
