@@ -16,6 +16,11 @@ class FirstTabController: UIViewController {
         self.titleLabel.backgroundColor = .white
     }
     
+    @IBAction func beforeButtonTouched(_ sender: Any) {
+        // 임시 기능 확인용 프린트문
+        print("beforeButtonTouched")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print(#file, #line, #function, #column)
@@ -31,6 +36,8 @@ class FirstTabController: UIViewController {
         firstDescription.highlightedTextColor = .orange
         firstDescription.isHighlighted = true
         firstDescription.sizeToFit()
+        
+        
     }
 }
 
