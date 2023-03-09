@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstTabController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var firstDescription: UILabel!
     
