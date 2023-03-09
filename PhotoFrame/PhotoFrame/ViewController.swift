@@ -11,6 +11,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var firstDescription: UILabel!
     
+    @IBAction func nextButtonTouched(_ sender: Any) {
+        self.titleLabel.textColor = .orange
+        self.titleLabel.backgroundColor = .white
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         print(#file, #line, #function, #column)
