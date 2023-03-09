@@ -51,9 +51,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="이전"/>
-                                <connections>
-                                    <action selector="beforeButtonTouched:" destination="3pS-gp-Qdz" eventType="touchUpInside" id="91m-tS-ZMx"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZf-gC-1lG">
                                 <rect key="frame" x="255" y="304" width="54" height="35"/>
@@ -70,6 +67,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="UIs-1N-BC5"/>
                     <connections>
+                        <outlet property="beforeButton" destination="tZl-GD-ZG2" id="PjI-Nd-Gmk"/>
                         <outlet property="firstDescription" destination="IGR-Jq-lKH" id="sfv-ox-T18"/>
                         <outlet property="titleLabel" destination="rEg-Ew-QM8" id="FX2-z2-mH0"/>
                     </connections>

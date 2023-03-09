@@ -10,13 +10,14 @@ import UIKit
 class FirstTabController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var firstDescription: UILabel!
+    @IBOutlet weak var beforeButton: UIButton!
     
     @IBAction func nextButtonTouched(_ sender: Any) {
         self.titleLabel.textColor = .orange
         self.titleLabel.backgroundColor = .white
     }
     
-    @IBAction func beforeButtonTouched(_ sender: Any) {
+    @objc func beforeButtonTouched(_ sender: Any) {
         // 임시 기능 확인용 프린트문
         print("beforeButtonTouched")
     }
@@ -37,7 +38,7 @@ class FirstTabController: UIViewController {
         firstDescription.isHighlighted = true
         firstDescription.sizeToFit()
         
-        
+        beforeButton.addTarget(self, action: #selector(self.beforeButtonTouched), for: .touchUpInside)
     }
 }
 
