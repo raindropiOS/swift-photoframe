@@ -8,18 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var photoLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var firstDescription: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         print(#file, #line, #function, #column)
-        self.photoLabel.text = "에디의 사진액자"
-        photoLabel.textColor = .white
-        photoLabel.backgroundColor = .orange
-        photoLabel.alpha = 0.5
-        photoLabel.font = UIFont.boldSystemFont(ofSize: 25.0)
-        photoLabel.sizeToFit()
+        self.titleLabel.text = "에디의 사진액자"
+        titleLabel.textColor = .white
+        titleLabel.backgroundColor = .orange
+        titleLabel.alpha = 0.5
+        titleLabel.font = UIFont.boldSystemFont(ofSize: 25.0)
+        titleLabel.sizeToFit()
         
         firstDescription.text = "나의 첫번째 사진앱"
         firstDescription.font = firstDescription.font.withSize(15)
