@@ -51,12 +51,4 @@ highlightedTextColor, isHighlighted 프라퍼티를 "나의 첫번째 사진앱"
 
 "다음" 버튼을 누르면 "에디의 사진액자" 라벨 색이 반전되도록 하였음.  
 
-### **레퍼런스**
-* UILabel 프라퍼티 정리글 : https://roeldowney.tistory.com/74   
-* 뷰컨트롤러의 생명주기 : https://fomaios.tistory.com/entry/iOS-면접질문-프로토콜과-익스텐션이란Protocol-and-Extension  
-* 참조(Strong, weak, unowned) : https://devsrkim.tistory.com/entry/Swift-메모리를-참조하는-방법-Strong-Weak-Unowned  
-* 왜 IBOutlet은 weak인가 : https://co-dong.tistory.com/60  
-
-### **학습내용 정리**
-UIButton 애플문서 정리 : https://velog.io/@raindrop/UIButton  
-IBAction과 IBOutlet 정리 : https://velog.io/@raindrop/IBAction과-IBOutlet  
+[ Thu Mar 9 17:32:22 2023 +0900 ]  
