@@ -12,9 +12,20 @@ class FirstTabViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var beforeButton: UIButton!
     
+    @IBOutlet weak var testView: UIView!
+    @IBOutlet weak var label1: UILabel!
+    
     @IBAction func nextButtonTouched(_ sender: Any) {
         self.titleLabel.textColor = .orange
         self.titleLabel.backgroundColor = .white
+    }
+    
+    @IBAction func sizeToFitTestButtonTouched(_ sender: Any) {
+        label1.sizeToFit()
+    }
+    
+    @IBAction func test(_ sender: Any) {
+        testView.sizeToFit()
     }
     
     @objc func beforeButtonTouched(_ sender: Any) {
@@ -39,6 +50,12 @@ class FirstTabViewController: UIViewController {
         descriptionLabel.sizeToFit()
         
         beforeButton.addTarget(self, action: #selector(self.beforeButtonTouched), for: .touchUpInside)
+        
+        testView.layer.borderColor = .init(red: 0, green: 0, blue: 0, alpha: 1)
+        testView.layer.borderWidth = 1.0
+        label1.layer.borderColor = .init(red: 0, green: 0, blue: 0, alpha: 1)
+        label1.layer.borderWidth = 1
+        label1.text = "very long text in label 1"
     }
 }
 
