@@ -7,9 +7,9 @@
 
 import UIKit
 
-class FirstTabController: UIViewController {
+class FirstTabViewController: UIViewController {
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var firstDescription: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var beforeButton: UIButton!
     
     @IBAction func nextButtonTouched(_ sender: Any) {
@@ -32,11 +32,11 @@ class FirstTabController: UIViewController {
         titleLabel.font = UIFont.boldSystemFont(ofSize: 25.0)
         titleLabel.sizeToFit()
         
-        firstDescription.text = "나의 첫번째 사진앱"
-        firstDescription.font = firstDescription.font.withSize(15)
-        firstDescription.highlightedTextColor = .orange
-        firstDescription.isHighlighted = true
-        firstDescription.sizeToFit()
+        descriptionLabel.text = "나의 첫번째 사진앱"
+        descriptionLabel.font = descriptionLabel.font.withSize(15)
+        descriptionLabel.highlightedTextColor = .orange
+        descriptionLabel.isHighlighted = true
+        descriptionLabel.sizeToFit()
         
         beforeButton.addTarget(self, action: #selector(self.beforeButtonTouched), for: .touchUpInside)
     }

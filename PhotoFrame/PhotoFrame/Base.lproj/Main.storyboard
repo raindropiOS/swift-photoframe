@@ -27,7 +27,7 @@
         <!--Item 1-->
         <scene sceneID="n8J-4y-fs4">
             <objects>
-                <viewController id="3pS-gp-Qdz" customClass="FirstTabController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3pS-gp-Qdz" customClass="FirstTabViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kCC-IN-PnU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,7 @@
                     <tabBarItem key="tabBarItem" title="Item 1" id="UIs-1N-BC5"/>
                     <connections>
                         <outlet property="beforeButton" destination="tZl-GD-ZG2" id="PjI-Nd-Gmk"/>
-                        <outlet property="firstDescription" destination="IGR-Jq-lKH" id="sfv-ox-T18"/>
+                        <outlet property="descriptionLabel" destination="IGR-Jq-lKH" id="sfv-ox-T18"/>
                         <outlet property="titleLabel" destination="rEg-Ew-QM8" id="FX2-z2-mH0"/>
                     </connections>
                 </viewController>
