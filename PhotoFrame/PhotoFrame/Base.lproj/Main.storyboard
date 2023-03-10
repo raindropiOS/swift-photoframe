@@ -51,6 +51,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="이전"/>
+                                <connections>
+                                    <action selector="beforeButtonTouched_ibaction:" destination="3pS-gp-Qdz" eventType="touchUpInside" id="ykA-pT-i30"/>
+                                    <action selector="beforeButtondragged_ibaction:" destination="3pS-gp-Qdz" eventType="touchDragOutside" id="6RF-IL-bOH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZf-gC-1lG">
                                 <rect key="frame" x="255" y="304" width="54" height="35"/>

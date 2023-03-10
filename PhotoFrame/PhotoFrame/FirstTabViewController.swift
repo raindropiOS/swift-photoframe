@@ -16,7 +16,13 @@ class FirstTabViewController: UIViewController {
         self.titleLabel.textColor = .orange
         self.titleLabel.backgroundColor = .white
     }
+    @IBAction func beforeButtonTouched_ibaction(_ sender: Any) {
+        print("ibaction touched")
+    }
     
+    @IBAction func beforeButtondragged_ibaction(_ sender: Any) {
+        print("ibaction tragged out")
+    }
     @objc func beforeButtonTouched(_ sender: Any) {
         // 임시 기능 확인용 프린트문
         print("beforeButtonTouched")
