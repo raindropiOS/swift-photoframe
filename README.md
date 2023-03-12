@@ -75,7 +75,7 @@ viewWillDisappear
 viewDidDisappear
 ```
 
-## 6. 
+## 6. Container ViewController 활용하기
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/70703326/224560693-b785955a-9f80-49d4-960f-6589192cbcf2.gif">   
 
 ```
@@ -85,3 +85,35 @@ viewWillAppear
 viewDidAppear
 ```
 네비게이션 임베드 전에는 민트뷰를 띄울 때 오렌지뷰가 사라지지 않았다. 민트뷰로 이동할 때, 이전 뷰인 오렌지뷰가 disappear 되는 차이점이 있다.  
+
+
+## 7. 다른 화면 연결하기
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/70703326/224562618-5ce2e20f-2dab-41b2-a97e-6114656037b8.gif">  
+
+```swift
+@IBAction func nextImageButtonTouched(_ sender: Any) {
+        self.photoImageView.image = randomImage()
+    }
+}
+
+extension SecondTabViewController {
+    func randomImage() -> UIImage {
+        let randomImageNumber = (1...22).randomElement()!
+        
+        let randomImageNumberString: String
+        if randomImageNumber < 10 {
+            randomImageNumberString = "0" + String(randomImageNumber) + ".jpg"
+        } else {
+            randomImageNumberString = String(randomImageNumber) + ".jpg"
+        }
+        
+        if let image = UIImage(named: randomImageNumberString) {
+            return image
+        }
+        
+        print("error function : randomImage")
+        return UIImage(named: "01.jpg")!
+    }
+```
+무작위 이미지를 구하는 함수를 extension에 구현  
+
