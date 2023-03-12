@@ -77,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="574.80916030534354" y="-521.12676056338034"/>
         </scene>
-        <!--View Controller-->
+        <!--Orange View Controller-->
         <scene sceneID="khN-Xa-NMy">
             <objects>
-                <viewController id="dl5-65-5Nm" sceneMemberID="viewController">
+                <viewController id="dl5-65-5Nm" customClass="OrangeViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Wa-7d-sZv">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,6 +92,15 @@
                                 <buttonConfiguration key="configuration" style="plain" title="다음"/>
                                 <connections>
                                     <segue destination="B4f-sp-ifJ" kind="show" id="86H-U1-FAL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKK-0x-ETo">
+                                <rect key="frame" x="170" y="587" width="54" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="닫기"/>
+                                <connections>
+                                    <action selector="closeButtonTouched:" destination="dl5-65-5Nm" eventType="touchUpInside" id="dcd-Dr-MsR"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F707A7E29B85D1400CAFBE3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F707A7D29B85D1400CAFBE3 /* README.md */; };
+		8F74B84829BE1AA7004C788E /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F74B84729BE1AA7004C788E /* OrangeViewController.swift */; };
 		8FDC633129B58E8E00CFAD1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC633029B58E8E00CFAD1F /* AppDelegate.swift */; };
 		8FDC633329B58E8E00CFAD1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC633229B58E8E00CFAD1F /* SceneDelegate.swift */; };
 		8FDC633529B58E8E00CFAD1F /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDC633429B58E8E00CFAD1F /* FirstTabViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		8F707A7D29B85D1400CAFBE3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8F74B84729BE1AA7004C788E /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 		8FDC632D29B58E8E00CFAD1F /* PhotoFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FDC633029B58E8E00CFAD1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FDC633229B58E8E00CFAD1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				8FDC633229B58E8E00CFAD1F /* SceneDelegate.swift */,
 				8FDC633429B58E8E00CFAD1F /* FirstTabViewController.swift */,
 				8FDC633629B58E8E00CFAD1F /* Main.storyboard */,
+				8F74B84729BE1AA7004C788E /* OrangeViewController.swift */,
 				8FDC633929B58E8F00CFAD1F /* Assets.xcassets */,
 				8FDC633B29B58E8F00CFAD1F /* LaunchScreen.storyboard */,
 				8FDC633E29B58E8F00CFAD1F /* Info.plist */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F74B84829BE1AA7004C788E /* OrangeViewController.swift in Sources */,
 				8FDC633529B58E8E00CFAD1F /* FirstTabViewController.swift in Sources */,
 				8FDC633129B58E8E00CFAD1F /* AppDelegate.swift in Sources */,
 				8FDC633329B58E8E00CFAD1F /* SceneDelegate.swift in Sources */,
