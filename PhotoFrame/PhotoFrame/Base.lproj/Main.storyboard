@@ -116,10 +116,10 @@
             </objects>
             <point key="canvasLocation" x="2246.5648854961833" y="-521.12676056338034"/>
         </scene>
-        <!--View Controller-->
+        <!--Mint View Controller-->
         <scene sceneID="Rtu-X6-F56">
             <objects>
-                <viewController id="B4f-sp-ifJ" sceneMemberID="viewController">
+                <viewController id="B4f-sp-ifJ" customClass="MintViewController" customModule="PhotoFrame" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ij1-Um-TCs">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -129,6 +129,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="다음"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qET-mO-952">
+                                <rect key="frame" x="169" y="572" width="54" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="닫기"/>
+                                <connections>
+                                    <action selector="CloseButtonTouched:" destination="B4f-sp-ifJ" eventType="touchUpInside" id="sdb-QO-kUG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="3hP-0g-no7"/>
