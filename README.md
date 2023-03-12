@@ -58,3 +58,21 @@ highlightedTextColor, isHighlighted 프라퍼티를 "나의 첫번째 사진앱"
 <img width="200" alt="image" src="https://user-images.githubusercontent.com/70703326/224549166-a81533b3-6398-497e-8a22-51e1a59c1530.png">  
 <img width="200" alt="image" src="https://user-images.githubusercontent.com/70703326/224549179-faf2c919-10e7-4938-92ff-95471d5421a6.png">  
 "다음" 버튼으로 뷰를 연결  
+
+## 5. ViewController 연결하기
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/70703326/224552865-dc57ce84-dee8-485a-9283-1f6859b62892.gif">   
+
+```
+// 첫번째 Scene에서 Orange 뷰를 띄울 때
+viewDidLoad
+viewWillAppear
+viewDidAppear
+
+// Orange뷰에서 Mint뷰에서 넘어갈 때는 아무 것도 출력되지 않음
+
+// Orange뷰에서 닫기 버튼을 눌렀을 때
+viewWillDisappear
+viewDidDisappear
+```
+
+
