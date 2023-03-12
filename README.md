@@ -75,4 +75,13 @@ viewWillDisappear
 viewDidDisappear
 ```
 
+## 6. 
+<img width="250" alt="image" src="https://user-images.githubusercontent.com/70703326/224560693-b785955a-9f80-49d4-960f-6589192cbcf2.gif">   
 
+```
+viewWillDisappear
+viewDidDisappear
+viewWillAppear
+viewDidAppear
+```
+네비게이션 임베드 전에는 민트뷰를 띄울 때 오렌지뷰가 사라지지 않았다. 민트뷰로 이동할 때, 이전 뷰인 오렌지뷰가 disappear 되는 차이점이 있다.  
