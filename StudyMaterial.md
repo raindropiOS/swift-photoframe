@@ -5,6 +5,15 @@
 * 왜 IBOutlet은 weak인가 : https://co-dong.tistory.com/60  
 * ARC 공식문서 : https://docs.swift.org/swift-book/documentation/the-swift-programming-language/automaticreferencecounting/  
 * unowned와 weak의 차이 : https://tdcian.tistory.com/290  
+* perform segue : https://jiyeonlab.tistory.com/8  
+* segue 종류 : https://jcsoohwancho.github.io/2019-07-28-Segue-파헤치기/  
+unwind segue : 화면 돌아가기  
+custom segue  
+* 
+
+
+
+
 
 ### **학습내용 정리**
 UIButton 애플문서 정리 : https://velog.io/@raindrop/UIButton  

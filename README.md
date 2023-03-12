@@ -52,3 +52,9 @@ highlightedTextColor, isHighlighted 프라퍼티를 "나의 첫번째 사진앱"
 "다음" 버튼을 누르면 "에디의 사진액자" 라벨 색이 반전되도록 하였음.  
 
 [ Thu Mar 9 17:32:22 2023 +0900 ]  
+
+## 4. Segue로 Segue 연결하기
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/70703326/224549155-6b0c5894-73e5-479f-b110-60e7d03a4fcf.png">  
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/70703326/224549166-a81533b3-6398-497e-8a22-51e1a59c1530.png">  
+<img width="200" alt="image" src="https://user-images.githubusercontent.com/70703326/224549179-faf2c919-10e7-4938-92ff-95471d5421a6.png">  
+"다음" 버튼으로 뷰를 연결  
