@@ -91,7 +91,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="다음"/>
                                 <connections>
-                                    <segue destination="B4f-sp-ifJ" kind="show" id="86H-U1-FAL"/>
+                                    <action selector="nextButtonTouched:" destination="dl5-65-5Nm" eventType="touchUpInside" id="LB3-HM-YH1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TKK-0x-ETo">
@@ -107,7 +107,9 @@
                         <viewLayoutGuide key="safeArea" id="8ht-M8-iD2"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="pv8-gj-dzI"/>
+                    <connections>
+                        <segue destination="B4f-sp-ifJ" kind="show" identifier="Show mint" id="bcA-5h-7Sr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="itM-9Q-0FO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
